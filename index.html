@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Flashcard Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="assets/logo.png" alt="Limbiks Logo" style="height: 50px;"> 
+            </a>
+            <nav>
+                <a href="">Generators</a>
+                <a href="">Features</a>
+                <a href="">Examples</a>
+                <a href="">Company</a>
+                <a href="">Login</a>
+                <a href="" class="signup-btn">Sign Up</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>AI Flashcard Generator</h1>
+                <p>Upload PDFs, presentations, notes, images, and more. Limbiks generates a comprehensive deck of flashcards in seconds. Master your flashcards with our powerful study tools.</p>
+            </div>
+            <div class="upload-preview">
+                <h2>Preview your generated flashcards</h2>
+                <button id="uploadButton" class="upload-btn">
+                    <img src="assets/upload.png" alt="Upload Icon"> Click here to upload a file
+                </button>
+                <input type="file" id="pdfUpload" accept=".pdf" style="display: none;">
+            </div>
+        </div>
+    </section>
+
+    <section class="flashcard-display">
+        <div class="container">
+            <div id="flashcardContainer">
+                <div id="flashcard">
+                    <div id="question"></div>
+                    <div id="answer"></div>
+                </div>
+                <button id="prevBtn">Previous</button>
+                <button id="nextBtn">Next</button>
+                <button id="showAnswerBtn">Show Answer</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

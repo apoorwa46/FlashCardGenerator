@@ -1,0 +1,109 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #171a25; 
+    color: #fff; 
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    align-items: left;
+    display: flex;
+}
+
+
+header {
+    background-color: #171a25;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.signup-btn {
+    background-color: #ff6600; 
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    position: relative;
+    text-align: left;
+}
+
+.upload-btn {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.upload-preview {
+    background-color: #171a25;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+
+
+.try-links a {
+    margin: 0 10px;
+}
+
+.flashcard-display {
+    padding: 100px 0;
+    text-align: center;
+}
+
+#flashcard {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    width: 500px;
+}
+
+#question {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#answer {
+    display: none;
+}
+
+#prevBtn, #nextBtn, #showAnswerBtn {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
